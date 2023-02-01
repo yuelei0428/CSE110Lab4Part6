@@ -6,48 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <Button-->
-<!--        android:id="@+id/launch_rotate_btn"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="90dp"-->
-<!--        android:onClick="onLaunchProfileClicked"-->
-<!--        android:text="launch_rotate"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.497"-->
+    <Button
+        android:id="@+id/launch_rotate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:onClick="onLaunchRotationClicked"
+        android:text="launch_rotate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
 
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/max_clock_btn"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="376dp"-->
-<!--        android:onClick="onLaunchClockClicked"-->
-<!--        android:text="launch_clock"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.497"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="88dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="128dp"
-        android:layout_marginBottom="128dp"
-        android:text="Android Studio is awful. I'm not salty at all."
-        app:layout_constraintBaseline_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/launch_rotate_btn"
+        android:id="@+id/launch_clock_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:onClick="onLaunchClockClicked"
+        android:text="launch_clock"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
